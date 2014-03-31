@@ -1,0 +1,19 @@
+.text {
+
+	text-align: center;
+	
+}
+
+#content  p{
+
+	padding-left: 18%;
+	text-align: justify;
+	padding-right: 18%;
+}
+
+#content  h1{
+
+	text-align: left;
+	padding-left: 18%;
+	padding-right: 18%;
+}

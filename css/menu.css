@@ -1,0 +1,56 @@
+/*
+	 CSS-Tricks Example - MagicLine Demo
+	 by Chris Coyier
+	 modified by Alban Truc
+	 http://css-tricks.com
+*/
+
+.menu {
+	text-align: center;
+	
+}
+
+/* Clearfix */
+.group:after { visibility: hidden; display: block; content: ""; clear: both; height: 0; }
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+#menu1 { 
+	margin: 0 auto; 
+	list-style: none; 
+	position: relative; 
+	width: 960px; 
+}
+#menu1 li { 
+	display: inline-block; 
+}
+#menu1 li a { 
+	position: relative; 
+	z-index: 200; 
+	color: #bbb; 
+	font-size: 16px; 
+	display: block; 
+	float: left; 
+	padding: 6px 10px 4px 10px;
+	text-decoration: none;
+	text-transform: uppercase; 
+}
+#menu1 li a:hover { 
+	color: white; 
+}
+#menu1 #magic-line { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100px; 
+	background: #4BB5C1; 
+	z-index: 100; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.current_menu_item a { 
+	color: white !important; 
+}
+.ie6 #menu1 li, .ie7 #menu1 li {
+	display: inline;
+}

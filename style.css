@@ -1,0 +1,34 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font: 14px/1 Georgia, Serif;
+}
+
+#header {
+	position: relative;
+	margin: 0 auto;
+	background-image: url(images/header.jpg);
+	
+}
+
+
+#logo {
+	position: relative;
+	margin-top: 5px auto;
+}
+
+#helloMsg {
+	position: relative;
+	text-align: right;
+	margin-right: 25px;
+	margin-top: -20px;
+	font: 18px/1 Georgia, Serif;
+	color: white;
+}
+
+#helloMsg a {
+	text-decoration: none;
+	color: white;
+}
